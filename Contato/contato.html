@@ -12,7 +12,7 @@
 
     <header>
 
-        <nav>
+        <!-- <nav>
             <a class="logo" href="/index.html">Games.Com</a>
 
             <ul class="nav-list">
@@ -24,19 +24,151 @@
                 <li><a href="/Contato/contato.html">Contato</a></li>
             </ul>
 
+        </nav> -->
+
+        <nav class="barra-navegacao">
+            <div class="logo">
+              <!-- <img src="caminho-para-sua-logo" alt="Logo da empresa"> -->
+              <a href="/index.html">Games.Com</a>
+            </div>
+            <ul class="menu-navegacao">
+                <li><a href="/Sobre/sobre.html">Sobre Nós</a></li>
+                <li><a href="/Jogos_de_PC/pcgamer.html">Pc Gamer</a></li>
+                <li><a href="/Jogos_de_playstation/playstation.html">Playstation</a></li>
+                <li><a href="/Jogos_de_xbox/xbox.html">Xbox</a></li>
+                <li><a href="/Jogos_Mobile/mobile.html">Mobile</a></li>
+                <li><a href="/Contato/contato.html">Contato</a></li>
+            </ul>
         </nav>
         
     </header>
 
-    <hr>
-
     <main>
 
-        <h2>Nosso Contato</h2>
+        <br>
+
+        <h2 class="principal">Nosso Contato</h2>
+
+        <p>Quer tirar suas dúvidas, fazer uma reclamação ou sugerir um tema para publicação? aqui é o lugar certo.</p>
+        
+        <!-- <div class="linha-container">
+            <div class="linha">
+                <h3>Tire suas Dúvidas</h3>
+
+                    <label for="">Nome</label>
+                    <br>
+                    <input type="text" name="" id="nome" class="cor">
+            
+                    <br><br>
+            
+                    <label for="">E-mail</label>
+                    <br>
+                    <input type="email" name="" id="email" class="cor">
+            
+                    <br><br>
+            
+                    <label for="">Mensagem</label>
+                    <br>
+                    <textarea name="" id="mensagem" cols="30" rows="10" class="cor"></textarea>
+
+                    <br>
+
+                    <button class="botao">Enviar Mensagem</button>
+
+            </div>
+
+            <div class="linha">
+
+                <h3>Dados de Contato</h3>
+
+                <p>WhatsApp: </p>
+                
+                <p>E-mail: contato@games.com.br</p>
+                <p>instagram</p>
+                <p>linkedin</p>
+                <p>YouTube</p>
+
+            </div>
+        </div> -->
+
+        <!-- <form class="formulario-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+          
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          
+            <button type="submit">Enviar</button>
+          </form> -->
+
+          <div class="container">
+            <div class="coluna-formulario">
+              <form class="formulario-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+          
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+          
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+          
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          
+            <div class="coluna-info">
+              <p><strong>Informações de contato:</strong></p>
+              <ul>
+                <li><span class="icon-whatsapp"></span> Whatsapp: +XX XXXX-XXXX</li>
+                <li><span class="icon-email"></span> E-mail: exemplo@example.com</li>
+                <li><span class="icon-instagram"></span> Instagram: @seuinstagram</li>
+                <li><span class="icon-linkedin"></span> LinkedIn: seu linkedin</li>
+                <li><span class="icon-youtube"></span> YouTube: seu canal do YouTube</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+
+        <div class="newsletter">
+            <p>Inscreva-se em nossa newsletter:</p>
+            <form>
+              <input type="email" placeholder="Seu e-mail" required>
+              <button type="submit">Inscrever</button>
+            </form>
+          </div>
 
     </main>
 
-    <footer></footer>
+    <footer>
+
+        <br>
+
+        <h3>Redes Sociais</h3>
+
+        <div>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="/Imagens/novo-logo-instagram-blog-gkpb-destaque-removebg-preview.png" alt="Instagram" width="50px">
+            </a>
+
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="WhatsApp" width="50px">
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="/Imagens/Linkedin.png" alt="Linkedin" width="47px">
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="/Imagens/Logo-YouTube.png" alt="YouTube" width="50px">
+            </a>
+        </div>
+
+    </footer>
     
 </body>
 
