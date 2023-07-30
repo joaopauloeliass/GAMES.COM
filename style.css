@@ -109,6 +109,15 @@ h3, table{
 
 p {
   text-indent: 2%;
+  font-size: 20px;
+  text-align: justify;
+  margin: 1%
+
+}
+
+.newsp {
+  text-align: center;
+
 }
 
 table {

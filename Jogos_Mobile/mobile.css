@@ -96,7 +96,7 @@ main {
   text-align: center;
 }
 
-.t2 {
+.t1, .t2 {
   margin: 15px 15px 15px 15px;
   text-align: center;
 }
@@ -108,6 +108,9 @@ h3, table{
 
 p {
   text-indent: 2%;
+  font-size: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 table {
@@ -119,6 +122,9 @@ figure {
   margin: 15px 15px 15px 15px;
 }
 
+.img {
+  text-align: center;
+}
 
 /* footer {
   background: #23232e;

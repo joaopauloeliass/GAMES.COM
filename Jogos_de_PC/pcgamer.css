@@ -96,18 +96,22 @@ main {
   text-align: center;
 }
 
-.t2 {
+.t1, .t2 {
   margin: 15px 15px 15px 15px;
   text-align: center;
 }
 
-h3, table{
+h3, table {
   text-align: center;
 }
 
 
 p {
   text-indent: 2%;
+  font-size: 20px;
+  text-align: justify;
+  margin: 1%;
+
 }
 
 table {
@@ -117,6 +121,10 @@ table {
 
 figure {
   margin: 15px 15px 15px 15px;
+}
+
+.img  {
+  text-align: center;
 }
 
 
